@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    /> <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1 class="heading-1">
+  <img src="images/calculator logo.png" class=""  alt="">
+</h1>
+<div class="cal-dis">
+  <input 
+  type="text"
+  id="display"
+  placeholder="0"
+  class="input">
+</div>
+<div class="cal-ui">
+<table class="table-1">
+  <tr class="tr-1">
+    <td class="td-1"><button onclick="num(1)">1</button></td>
+    <td class="td-2"><button onclick="num(2)">2</button></td>
+    <td class="td-3"><button onclick="num(3)">3</button></td>
+    <td class="td-4"><button onclick="num(4)">4</button></td>
+  </tr>
+  <tr class="tr-1">
+    <td class="td-5"><button onclick="num(5)">5</button></td>
+    <td class="td-6"><button onclick="num(6)">6</button></td>
+    <td class="td-7"><button onclick="num(7)">7</button></td>
+    <td class="td-8"><button onclick="num(8)">8</button></td>
+  </tr>
+  <tr class="tr-1">
+    <td class="td-9"><button onclick="num(9)">9</button></td>
+    <td class="td-0"><button onclick="num(0)">0</button></td>
+    <td class="td-multiply"><button onclick="num('*')">* </button></td>
+    <td class="td-divide"><button onclick="num('/')">/ </button></td>
+  </tr>
+  <tr class="tr-1">
+    <td class="td-c"><button onclick="cLear('')">C</button></td>
+    <td class="td-point"><button onclick="equal()">= </button></td>
+    <td class="td-minus"><button onclick="num('-')">-</button></td>
+    <td class="td-plus"><button onclick="num('+')">+</button></td>
+  </tr>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
